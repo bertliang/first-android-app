@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.utoronto.group_0330"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ca.utoronto.group_0330.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.utoronto.group_0330.LoginNurse"
+            android:label="@string/title_activity_login_nurse"
+            android:parentActivityName="ca.utoronto.group_0330.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.utoronto.group_0330.MainActivity" />
+        </activity>
+        <activity
+            android:name="ca.utoronto.group_0330.RegisterNurse"
+            android:label="@string/title_activity_register_nurse"
+            android:parentActivityName="ca.utoronto.group_0330.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.utoronto.group_0330.MainActivity" />
+        </activity>
+        <activity
+            android:name="ca.utoronto.group_0330.AllPatients"
+            android:label="@string/title_activity_all_patients" >
+        </activity>
+        <activity
+            android:name="ca.utoronto.group_0330.CreatePatient"
+            android:label="@string/title_activity_create_patient" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.utoronto.group_0330.AllPatients" />
+        </activity>
+        <activity
+            android:name="ca.utoronto.group_0330.ShowPatient"
+            android:label="@string/title_activity_show_patient" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.utoronto.group_0330.AllPatients" />
+        </activity>
+        <activity
+            android:name="ca.utoronto.group_0330.UpdateVitals"
+            android:label="@string/title_activity_update_vitals" >
+        </activity>
+        <activity
+            android:name="ca.utoronto.group_0330.UrgencyListActivity"
+            android:label="@string/title_activity_urgency_list" >
+        </activity>
+        <activity
+            android:name="ca.utoronto.group_0330.LoginDoctor"
+            android:label="@string/title_activity_login_doctor" >
+        </activity>
+        <activity
+            android:name="ca.utoronto.group_0330.RegisterDoctor"
+            android:label="@string/title_activity_register_doctor"
+            android:parentActivityName="ca.utoronto.group_0330.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.utoronto.group_0330.MainActivity" />
+        </activity>
+        <activity
+            android:name="ca.utoronto.group_0330.DoctorTime"
+            android:label="@string/title_activity_doctor_time" >
+        </activity>
+        <activity
+            android:name="ca.utoronto.group_0330.UpdatePerscription"
+            android:label="@string/title_activity_update_perscription"
+            android:parentActivityName="ca.utoronto.group_0330.ShowPatient" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.utoronto.group_0330.ShowPatient" />
+        </activity>
+    </application>
+
+</manifest>

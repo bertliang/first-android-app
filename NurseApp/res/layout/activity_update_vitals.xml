@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	xmlns:tools="http://schemas.android.com/tools"
+ 	android:layout_width="match_parent"
+ 	android:layout_height="match_parent"
+ 	android:paddingBottom="@dimen/activity_vertical_margin"
+ 	android:paddingLeft="@dimen/activity_horizontal_margin"
+ 	android:paddingRight="@dimen/activity_horizontal_margin"
+ 	android:paddingTop="@dimen/activity_vertical_margin"
+ 	android:orientation="vertical"
+    tools:context=".UpdateVitals" >
+
+    <TextView 
+        android:id="@+id/updateVitalsTextView" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="@string/update_vitals"/>
+    
+    <EditText android:id="@+id/update_temp_field"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:hint="@string/update_temperature" /> 
+ 		
+     <EditText android:id="@+id/update_systolic_field"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:hint="@string/update_systolic" />
+ 
+ 	<EditText android:id="@+id/update_diastolic_field"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:hint="@string/update_diastolic" /> 
+ 
+ 	<EditText android:id="@+id/update_heartrate_field"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:hint="@string/update_heartrate" />
+
+ 	<EditText
+ 	    android:id="@+id/update_time_field"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:hint="@string/time" />
+ 	
+ 	<View
+  		android:layout_width="1dp"
+  		android:layout_height="50dp">
+	</View>
+
+ 	<Button
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:onClick="updateVitalSigns"
+ 	    android:text="@string/update_vitals_button" />
+    
+</LinearLayout>

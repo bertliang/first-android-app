@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NurseApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">The following information is scrollable. For additional options,
+        visit the menu bar.</string>
+    <string name="login_existing">Login With Existing Account</string>
+    <string name="allPatients_instruct">To access a patient, enter their healthcard number:</string>
+    <string name="login_register_nurse">Create A New Nurse Account</string>
+    <string name="login_register_doctor">Create A New Doctor Account</string>
+    <string name="title_activity_login_nurse">Log Into the Application</string>
+    <string name="title_activity_register_nurse">Register A New Nurse</string>
+    <string name="invalid_input">You entered invalid input.</string>
+    <string name="login_nurse">Log in:</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="log_in_nurse">Log In As Nurse</string>
+    <string name="log_in_doctor">Log In As Doctor</string>
+    <string name="register_nurse">Register a new nurse account:</string>
+    <string name="register_doctor">Register a doctor account:</string>
+    <string name="register_username">Desired Username</string>
+    <string name="register_password">Desired Password</string>
+    <string name="register">Create a New Account</string>
+    <string name="invalid_login">Invalid Login</string>
+    <string name="cannot_create_nurse">Cannot create new account.</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_patient">PatientActivity</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="healthcard">Healthcard Number</string>
+    <string name="birthday">Patient Birthday</string>
+    <string name="arrivetime">Patient Arrive Time</string>
+    <string name="title_activity_all_patients">Viewing All Patients</string>
+    <string name="title_activity_create_patient">Add A New Patient</string>
+    <string name="title_activity_show_patient">ShowPatient</string>
+    <string name="title_activity_update_vitals">Update Vital Signs</string>
+    <string name="update_vitals">Add a new vital sign update by specifying the information below:</string>
+    <string name="update_vitals_update">Update Vital Signs</string>
+    <string name="update_temperature">Tempearture</string>
+    <string name="update_systolic">Systolic Blood Pressure</string>
+    <string name="update_diastolic">Diastolic Blood Pressure</string>
+    <string name="update_heartrate">Heart Rate</string>
+    <string name="update_vitals_button">Update Vital Signs</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="time">Time YYYY-MM-DD-HH-mm</string>
+    <string name="create_patient">Fill the following information to add a new patient:</string>
+    <string name="register_fname">First Name</string>
+    <string name="register_lname">Last Name</string>
+    <string name="register_dob">Date of Birth YYYY-MM-DD</string>
+    <string name="register_hcard">Health Card Number</string>
+    <string name="action_addnewpatient">New Patient</string>
+    <string name="action_updatevitals">Update Vitals</string>
+    <string name="search_hcard">Search By Health Card</string>
+    <string name="search">Search By Health Card</string>
+    <string name="no_search_results">No Matching Patient</string>
+    <string name="invalid_date">You entered an invalid date.</string>
+    <string name="cannot_save">Could not save file.</string>
+    <string name="no_load">Error loading save file.</string>
+    <string name="urgencyList">Urgency List</string>
+    <string name="title_activity_urgency_list">UrgencyListActivity</string>
+    <string name="title_activity_login_doctor">Login With Existing Doctor Account</string>
+    <string name="title_activity_register_doctor">Register a new doctor account:</string>
+    <string name="cannot_create_doctor">Cannot Create Doctor Account</string>
+    <string name="access_denied">Access Denied</string>
+    <string name="action_newperscription">New Perscription</string>
+    <string name="no_patient">No patient in file.</string>
+    <string name="title_activity_doctor_time">Record When Patient Was Seen</string>
+    <string name="record_doctime">Record Doctor Seen Time</string>
+    <string name="title_activity_update_perscription">Add a New Perscription</string>
+    <string name="update_perscription">To add a new perscription, please fill the following:</string>
+    <string name="update_medicine">Medication Name</string>
+    <string name="update_medi_instruction">Additional Instructions</string>
+    <string name="add_new_perscription">Add Perscription</string>
+
+</resources>

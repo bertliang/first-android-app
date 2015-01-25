@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_updatevitals"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_updatevitals"/>
+    <item
+        android:id="@+id/action_newperscription"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_newperscription"/>
+    
+    <item android:id="@+id/action_recordDocTime" 
+        android:orderInCategory="100" 
+        android:showAsAction="never"
+        android:title="@string/record_doctime"></item>
+
+</menu>
